@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 30px;
+}
+
+button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+#loading {
+display: none;
+font-size: 20px;
+margin: 20px;
+}
+
+#error {
+color: red;
+font-size: 18px;
+margin: 20px;
+}
+
+#output {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+#output img {
+width: 200px;
+height: 300px;
+object-fit: cover;
+border-radius: 8px;
+}
